@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RecordsService } from './records.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularProiect';
+
+  records={}
+  constructor(private myFirstService: RecordsService){
+
+  }
+  ngOnInit(){
+    this.records= this.myFirstService.getData()
+  }
 }

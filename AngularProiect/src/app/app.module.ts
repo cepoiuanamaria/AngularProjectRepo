@@ -12,7 +12,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { RecordsService } from './records.service';
 import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component'
+import { FooterComponent } from './footer/footer.component';
+import { DoctorsComponent } from './doctors/doctors.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './footer/footer.component'
     AdminComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    DoctorsComponent
   ],
   imports: [
     BrowserModule,

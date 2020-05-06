@@ -12,19 +12,19 @@ export class RecordsService {
   getData(){
     return [
       {
-        name:'Sam',
+        name:'Doctor1',
         online:true
       },
       {
-        name: 'Bla',
+        name: 'Doctor2',
         online:false
       },
       {
-        name: 'Blo',
+        name: 'Doctor3',
         online:true
       },
       {
-        name: 'Blu',
+        name: 'Doctor4',
         online:false
       }
     ]

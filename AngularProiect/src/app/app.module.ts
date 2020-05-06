@@ -13,7 +13,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { RecordsService } from './records.service';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { DoctorsComponent } from './doctors/doctors.component'
+import { DoctorsComponent } from './doctors/doctors.component';
+import { ServicesComponent } from './services/services.component';
+import { PriceComponent } from './price/price.component';
+import { AppointmentComponent } from './appointment/appointment.component'
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { DoctorsComponent } from './doctors/doctors.component'
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    DoctorsComponent
+    DoctorsComponent,
+    ServicesComponent,
+    PriceComponent,
+    AppointmentComponent
   ],
   imports: [
     BrowserModule,

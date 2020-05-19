@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RecordsService } from './records.service';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -9,11 +10,20 @@ import { RecordsService } from './records.service';
 export class AppComponent {
   title = 'AngularProiect';
 
-  records={}
-  constructor(private myFirstService: RecordsService){
+  messages = this.http.get<any[]>('http:://localhost:4200');
+
+  constructor(private http: HttpClient) {}
+  post() {
+    this.http.post<any>('http://localhost:4200/users' , {username: 'Diana', password: 'Diana'})
+    .subscribe(next => console.log(next));
 
   }
-  ngOnInit(){
-    this.records= this.myFirstService.getData()
-  }
+  //records={}
+  //constructor(private myFirstService: RecordsService){
+
+ // }
+ // ngOnInit(){
+   // this.records= this.myFirstService.getData()
+ // }
+
 }

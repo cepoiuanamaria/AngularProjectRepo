@@ -1,5 +1,7 @@
+<div class = "container">
+  <img class="float_left" [src]=mypicture>
+</div>
 <app-header></app-header>
-
 <div *ngfor="let message of messages | async">
   {{message.message}}
 </div>
@@ -21,6 +23,5 @@
 <div class="container">
     <router-outlet></router-outlet>
 </div>
-  
 
 <app-footer></app-footer>

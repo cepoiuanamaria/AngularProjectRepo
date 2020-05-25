@@ -6,3 +6,6 @@ tr.odd{
     background: red;
     color:white;
 }
+.container{
+    background-image: url(./assets/images/myimage.jpg);
+}

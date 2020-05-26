@@ -6,6 +6,8 @@ tr.odd{
     background: red;
     color:white;
 }
-.container{
-    background-image: url(./assets/images/myimage.jpg);
+.container2{
+    height:40em; background-size:cover; width:auto;
+    background: url(/src/assets/images/myimage.jpg);
+    background-position:50% 50%;
 }

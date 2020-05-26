@@ -4,6 +4,7 @@ import{DoctorsComponent} from './doctors/doctors.component'
 import{ServicesComponent} from './services/services.component'
 import{PriceComponent} from './price/price.component'
 import{AppointmentComponent} from './appointment/appointment.component'
+import{LoginComponent} from './login/login.component'
 
 
 const routes: Routes = [

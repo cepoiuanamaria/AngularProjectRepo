@@ -1,0 +1,9 @@
+{
+  "medicalcenter":[
+	{
+		"id": 1,
+		"name": "Medical Center",
+		"email": "medicalcenter@test.com"
+	}
+  ]
+}

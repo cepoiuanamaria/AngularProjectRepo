@@ -9,7 +9,6 @@ import { AdminComponent } from './admin/admin.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
-
 import { RecordsService } from './records.service';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -29,7 +28,7 @@ import { AppointmentComponent } from './appointment/appointment.component'
     DoctorsComponent,
     ServicesComponent,
     PriceComponent,
-    AppointmentComponent
+    AppointmentComponent,
   ],
   imports: [
     BrowserModule,

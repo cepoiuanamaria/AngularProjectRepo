@@ -1,34 +1,22 @@
 <h1> <B>Doctors:</B></h1>
-<ul>
-    <li>
-        <div>
-            Doctor Copaescu<br>
-            <button>Add Appointment</button><button>Check Program </button>
 
-        </div>
-    </li>
-    <li>
-        <div>
-            Doctor Rahimian<br>
-            <button>Add Appointment</button><button>Check Program</button>
-        </div>
-    </li>
-    <li>
-        <div>
-            Doctor Bratila<br>
-            <button>Add Appointment</button><button>Check Program</button>
-        </div>
-    </li>
-    <li>
-        <div>
-            Doctor Predescu<br>
-            <button>Add Appointment</button><button>Check Program</button>
-        </div>
-    </li>
-    <li>
-        <div>
-            Doctor Surlea<br>
-            <button>Add Appointment</button><button>Check Program</button>
-        </div>
-    </li>
-</ul>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Add Appointment</th>
+        <th scope="col">Check Program</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of collection">
+          <th>{{item.id}}</th>
+          <th>{{item.name}}</th>
+          <th>{{item.email}}</th>
+          <th><button>Add Appointment</button></th>
+          <th><button>Check Program</button></th>
+      </tr>
+    </tbody>
+  </table>

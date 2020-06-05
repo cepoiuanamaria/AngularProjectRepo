@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CoreModule } from './core/core.module';
+//import {CoreModule} from './appointment/core/core.module'
+//import { CoreModule } from './core/core.module';
 import { LoginComponent } from './login/login.component';
 import { AdminComponent } from './admin/admin.component';
 import { HomeComponent } from './home/home.component';
@@ -37,6 +38,8 @@ import {ReactiveFormsModule} from '@angular/forms'
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
+    //CoreModule,
+
     RouterModule.forRoot([
    {
       path: 'login',
@@ -51,7 +54,7 @@ import {ReactiveFormsModule} from '@angular/forms'
       component: HomeComponent
     }]),
 
-    CoreModule
+    //CoreModule
   ],
   providers: [RecordsService],
   bootstrap: [AppComponent]

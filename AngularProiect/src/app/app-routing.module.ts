@@ -5,6 +5,7 @@ import{ServicesComponent} from './services/services.component'
 import{PriceComponent} from './price/price.component'
 import{AppointmentComponent} from './appointment/appointment.component'
 import{LoginComponent} from './login/login.component'
+import{RegisterComponent} from './register/register.component'
 
 
 const routes: Routes = [
@@ -23,6 +24,14 @@ const routes: Routes = [
   {
     component:AppointmentComponent,
     path:'appoint'
+  },
+  {
+    component:LoginComponent,
+    path:'login'
+  },
+  {
+    component:RegisterComponent,
+    path:'register'
   },
   {
     path: '_operation-program',

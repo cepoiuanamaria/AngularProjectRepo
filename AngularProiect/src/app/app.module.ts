@@ -15,7 +15,8 @@ import { FooterComponent } from './footer/footer.component';
 import { DoctorsComponent } from './doctors/doctors.component';
 import { ServicesComponent } from './services/services.component';
 import { PriceComponent } from './price/price.component';
-import { AppointmentComponent } from './appointment/appointment.component'
+import { AppointmentComponent } from './appointment/appointment.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { AppointmentComponent } from './appointment/appointment.component'
     ServicesComponent,
     PriceComponent,
     AppointmentComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,

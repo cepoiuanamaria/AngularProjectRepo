@@ -17,6 +17,7 @@ import { ServicesComponent } from './services/services.component';
 import { PriceComponent } from './price/price.component';
 import { AppointmentComponent } from './appointment/appointment.component';
 import { RegisterComponent } from './register/register.component';
+import {ReactiveFormsModule} from '@angular/forms'
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +36,7 @@ import { RegisterComponent } from './register/register.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    ReactiveFormsModule,
     RouterModule.forRoot([
    {
       path: 'login',

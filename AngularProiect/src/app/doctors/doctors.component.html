@@ -6,8 +6,7 @@
         <th scope="col">#</th>
         <th scope="col">Name</th>
         <th scope="col">Email</th>
-        <th scope="col">Add Appointment</th>
-        <th scope="col">Check Program</th>
+        <th score="col">Operation</th>
       </tr>
     </thead>
     <tbody>
@@ -15,8 +14,7 @@
           <th>{{item.id}}</th>
           <th>{{item.name}}</th>
           <th>{{item.email}}</th>
-          <th><button>Add Appointment</button></th>
-          <th><button>Check Program</button></th>
+          <th><i (click)="deleteDoctor(item.id)"class="fa fa-trash" style="font-size:20px;color:red;"></i></th>
       </tr>
     </tbody>
   </table>

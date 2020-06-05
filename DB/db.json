@@ -1,32 +1,44 @@
 {
-  "medicalcenter":[
-	{
-		"id": 1,
-		"name": "Doctor Copaescu",
-		"email": "copaescu@doctor.com"
-	},
-	{
-		"id": 2,
-		"name": "Doctor Rahimian",
-		"email": "rahimian@doctor.com"
-	  },
-	  {
-		  
-		"id": 3,
-		"name": "Doctor Bratila",
-		"email": "bratila@doctor.com"
-	  },
-	  {
-		  
-		"id": 4,
-		"name": "Doctor Predescu",
-		"email": "predescu@doctor.com"
-	  },
-	  {
-		  
-		"id": 5,
-		"name": "Doctor Surlea",
-		"email": "surlea@doctor.com"
-	  }
+  "medicalcenter": [
+    {
+      "id": 1,
+      "name": "Doctor Copaescu",
+      "email": "copaescu@doctor.com"
+    },
+    {
+      "id": 2,
+      "name": "Doctor Rahimian",
+      "email": "rahimian@doctor.com"
+    },
+    {
+      "id": 3,
+      "name": "Doctor Bratila",
+      "email": "bratila@doctor.com"
+    },
+    {
+      "id": 4,
+      "name": "Doctor Predescu",
+      "email": "predescu@doctor.com"
+    },
+    {
+      "id": 5,
+      "name": "Doctor Surlea",
+      "email": "surlea@doctor.com"
+    },
+    {
+      "name": "Doctor Manea",
+      "email": "manea@doctor.com",
+      "id": 6
+    },
+    {
+      "name": "Doctor Popescu",
+      "email": "popescu@doctor.com",
+      "id": 7
+    },
+    {
+      "name": "Doctor Bento",
+      "email": "bento@doctor.com",
+      "id": 8
+    }
   ]
 }

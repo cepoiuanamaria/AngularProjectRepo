@@ -6,6 +6,7 @@ import { HttpClient } from '@angular/common/http'
 })
 export class RecordsService {
   url="http://localhost:3000/medicalcenter"
+  rootUrl="http://localhost:3000/"
   constructor(private http: HttpClient) {
 
    }
@@ -17,5 +18,8 @@ export class RecordsService {
   }
   deleteDoctor(id){
     return this.http.delete('${this.url}/${id}')
+  }
+  registerUser(data){
+    return this.http.post(this.rootUrl+"users",data)
   }
 }

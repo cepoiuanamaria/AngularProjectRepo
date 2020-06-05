@@ -40,5 +40,13 @@
       "email": "bento@doctor.com",
       "id": 8
     }
+  ],
+  "users": [
+    {
+      "name": "Doctor BonJovi",
+      "email": "bonjovi@doctor.com",
+      "password": "123",
+      "id": 1
+    }
   ]
 }
